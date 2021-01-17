@@ -19,7 +19,7 @@ public class fibonachi2 extends RecursiveTask<Long> {
     }    
     @Override
     protected Long compute() {
-        // ATENCIO **1** double calcul = java.lang.Math.cos(54879854);
+        double calcul = java.lang.Math.cos(54879854);
         if(numero <= 1) return numero;
         fibonachi2 fib1 = new fibonachi2(numero-1);
         //fib1.fork();
