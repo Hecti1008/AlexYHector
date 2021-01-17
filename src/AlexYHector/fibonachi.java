@@ -17,7 +17,7 @@ public class fibonachi {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.print(calculaFibonacci(13));
+        System.out.print(calculaFibonacci(55));
     }
     
     public static long calculaFibonacci(long numero) {
