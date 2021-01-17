@@ -58,7 +58,10 @@ public class MaximTask extends RecursiveTask<Short> {
         task2 = new MaximTask(arr, mig, fi);
         task2.fork();
         
-        
+        //Augment
+        cont++;
+        //Print per ver tot
+        System.out.println(CONT + cont + INI + inici + FIN + fi);
         return (short) Math.max(task1.join(), task2.join());
     }
 
