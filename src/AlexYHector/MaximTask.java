@@ -19,6 +19,10 @@ public class MaximTask extends RecursiveTask<Short> {
     private static final int LLINDAR = 10000000;
     private short[] arr;
     private int inici, fi;
+    private static int cont;
+    private static final String CONT = "Comptador ";
+    private static final String INI = "Inici ";
+    private static final String FIN = "Final ";
     
     public MaximTask(short[] arr, int inici, int fi) {
         
