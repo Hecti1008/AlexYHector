@@ -29,7 +29,7 @@ public class fibonachi2 extends RecursiveTask<Long> {
 	 }
     public static void main(String[] args){
         ForkJoinPool pool = new ForkJoinPool();
-        System.out.println("Calculat:  " + pool.invoke(new fibonachi2(34)));    
+        System.out.println("Calculat:  " + pool.invoke(new fibonachi2(55)));    
     }
 }
 
