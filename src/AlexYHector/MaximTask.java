@@ -21,9 +21,9 @@ public class MaximTask extends RecursiveTask<Short> {
     private int inici, fi;
     //Variables noves
     private static int cont;
-    private static final String CONT = "Comptador ";
-    private static final String INI = "Inici ";
-    private static final String FIN = "Final ";
+    private static final String CONT = " Comptador ";
+    private static final String INI = " Inici ";
+    private static final String FIN = " Final ";
     
     public MaximTask(short[] arr, int inici, int fi) {
         
